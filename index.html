@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/tea.png" />
+    <title>Tea House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Start header -->
+        <div id="header">
+            <!-- Nav bar -->
+            <div class="header__navbar-wrap">
+                <div class="grid wide ">
+                    
+                    <div class="header__navbar hide-on-mobile-and-tablet">
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+                                <img src="./assets/img/header__navbar-logo.webp" alt="" class="header__navbar-img">
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link-left">Hotline:</a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link-left header__navbar-link-number">+84944426469</a>
+                            </li>
+                        </ul>
+    
+                        <ul class="header__navbar-list">
+                            <li class="header__navbar-item">
+                                
+                            </li>
+                            <li class="header__navbar-item navbar-item-display">
+                                <a href="#" class="header__navbar-link-right">
+                                    <i class="header__navbar-icon bx bx-search" style="font-weight:600 ;"></i>
+                                    Search
+                                </a>
+                                <div class="header__navbar-search">
+                                    <input class="header__navbar-search-input" type="text " placeholder="Search...">
+                                    <i class="header__navbar-search-icon bx bx-search" style="font-weight:600 ;"></i>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item navbar-item-display">
+                                <a href="" class="header__navbar-link-right ">
+                                    <i class="header__navbar-icon bx bxs-user"></i>
+                                    Account
+                                </a>
+                                <div class="user__notify">
+                                    <ul class="user__notify-list">
+                                        <li class="user__notify-item">
+                                            <span href="" class="user__notify-link sign-up-show">Register</span>
+                                        </li>
+                                        <li class="user__notify-item">
+                                            <span href="" class="user__notify-link sign-in-show">Log in</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-item navbar-item-display">
+                                <a href="#" class="header__navbar-link-right">
+                                    <i class='header__navbar-icon bx bx-shopping-bag'></i>
+                                    <span class="header__navbar-icon-quantity">0</span>
+                                    Cart
+                                </a>
+                                <div class="header__cart-no-cart">
+                                    <div class="header__cart-no-cart-img">
+                                        <img src="./assets/img/empty-cart.webp" alt="">
+                                    </div>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+            <!-- category -->
+            <div class="grid wide">
+                <div class="header__category hide-on-mobile-and-tablet">
+                    <ul class="header__category-list">
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link header__category-link--active">Home</a>
+                        </li>
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">About</a>
+                        </li>
+                        
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">Product
+                                <i class='header__category-icon bx bxs-down-arrow' ></i>
+                            </a>
+
+                            <ul class="header__category-menu">
+                                <li class="header__category-menu-item">
+                                    <a href="" class="header__category-menu-link">Coffee</a>
+                                </li>
+                                <li class="header__category-menu-item">
+                                    <a href="" class="header__category-menu-link">Cake</a>
+                                </li>
+                                <li class="header__category-menu-item">
+                                    <a href="" class="header__category-menu-link">Smoothies</a>
+                                </li>
+                                <li class="header__category-menu-item">
+                                    <a href="" class="header__category-menu-link">Fruit tea</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        
+                    </ul>
+                    <div class="header_-category-img">
+                        <a href="" class="header__category-link">
+                            <img src="./assets/img/logo.webp" alt="">
+                        </a>
+                    </div>
+                    <ul class="header__category-list">
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">News</a>
+                        </li>
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">Promotion</a>
+                        </li>
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">Menu</a>
+                        </li>
+                        <li class="header__category-item">
+                            <a href="" class="header__category-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- mobile-and-tablet-header -->
+            
+            <input type="radio" id="checkbox-hidden" name="display-on-mt" hidden>
+            <input type="radio" id="checkbox-list-on-mt" name="display-on-mt" hidden >
+            <label class="mt__header-overlay" for="checkbox-hidden"></label>
+            <div class="mt__header-menu">
+                <div class="mt__header-menu-heading">
+                    <span href="" class="mt__header-menu-login">Log in</span>
+                    <a href="" class="mt__header-menu-special">/</a>
+                    <span href="" class="mt__header-menu-register">Register</span>
+                </div>
+                <div class="mt__header-menu-list">
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Home</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">About</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Product</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">News</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Menu</a>
+                    </li>
+                    <li class="mt__header-menu-item">
+                        <a href="" class="mt__header-menu-link">Contact</a>
+                    </li>
+                </div>
+            </div>
+            <label class="mt__header-icon" for="checkbox-list-on-mt"><i class='mt__header-icon bx bx-list-ul'></i></label>
+
+            <div class="grid wide">
+                <div class="mt__header">
+                    <div class="mt__header-item">
+                        <div class="mt__header-img">
+                            <a href=""><img src="./assets/img/logo_white.webp" alt=""></a>
+                        </div>
+                        <div class="header__navbar-item navbar-item-display">
+                            <a href="#" class="header__navbar-link-right">
+                                <i class='header__navbar-icon bx bx-shopping-bag'></i>
+                                <span class="header__navbar-icon-quantity">0</span>
+                                Giỏ hàng
+                            </a>
+                            <div class="header__cart-no-cart">
+                                <div class="header__cart-no-cart-img">
+                                    <img src="./assets/img/empty-cart.webp" alt="">
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt__header-search">
+                        <input type="text" placeholder="Find a product you want...">
+                        <i class="header__navbar-icon bx bx-search" style="font-weight:600 ;"></i>
+                    </div>
+                </div>
+            </div>    
+
+        </div>
+
+        <!-- slider -->
+        <div id="slider">
+            <img src="./assets/img/slider_1.webp" alt="">
+        </div>
+
+        <!-- body -->
+        <div id="app__container">
+            <div class="body__product-warp">
+                <div class="grid wide">
+                    <div class="content__header">
+                        <div class="content__header-logo">
+                            <img src="./assets/img/title_base.webp" alt="">
+                        </div>
+                        <div class="content__header-title">PRODUCT LIST</div>
+                    </div>
+                    <ul class="row body__product-list">
+                        <li class="col l-3 m-4 c-6 body__product-item">
+                            <a href="" class="body__product-link">
+                                <img src="./assets/img/product-1.webp" alt="">
+                                <span class="body__product-link-desc">Hot tea</span>
+                            </a>
+                        </li>
+                        
+                        <li class="col l-3 m-4 c-6 body__product-item">
+                            <a href="" class="body__product-link">
+                                <img src="./assets/img/product-2.webp" alt="">
+                                <span class="body__product-link-desc">Fruit tea</span>
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__product-item">
+                            <a href="" class="body__product-link">
+                                <img src="./assets/img/product-3.webp" alt="">
+                                <span class="body__product-link-desc">Smoothies</span>
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__product-item">
+                            <a href="" class="body__product-link">
+                                <img src="./assets/img/product-4.webp" alt="">
+                                <span class="body__product-link-desc">Bánh ngọt</span>
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__product-item">
+                            <a href="" class="body__product-link">
+                                <img src="./assets/img/product-1.webp" alt="">
+                                <span class="body__product-link-desc">Ginger tea</span>
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__product-item">
+                            <a href="" class="body__product-link">
+                                <img src="./assets/img/product-2.webp" alt="">
+                                <span class="body__product-link-desc">Lemon tea</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="body__about-wrap">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-8 body__about">
+                            <div class="content__header align-left">
+                                <div class="content__header-logo">
+                                    <img src="./assets/img/title_base.webp" alt="">
+                                </div>
+                                <div class="content__header-title">WHY CHOOSE US</div>
+                            </div>
+                            <div class="body__about-text">With dedicated roasters and a talented team along with inspiring tea stories, the Tea House is a space dedicated to those who passionately love the taste of excellent tea leaves.</div>
+                            <ul class="body__about-list">
+                                <li class="body__about-item">
+                                    <div class="body__about-item-icon">
+                                        <img src="./assets/img/about-icon-1.webp" alt="">
+                                    </div>
+                                    <div class="body__about-item-content">
+                                        <div class="body__about-item-head">Good price</div>
+                                        <div class="body__about-item-desc">Committed to providing only quality controlled coffee sources</div>
+                                    </div>
+                                </li>
+                                <li class="body__about-item">
+                                    <div class="body__about-item-icon">
+                                        <img src="./assets/img/about-icon-2.webp" alt="">
+                                    </div>
+                                    <div class="body__about-item-content">
+                                        <div class="body__about-item-head">Excellent taste</div>
+                                        <div class="body__about-item-desc">The tea drops are carefully selected while soaking in the dew</div>
+                                    </div>
+                                </li>
+                                <li class="body__about-item">
+                                    <div class="body__about-item-icon">
+                                        <img src="./assets/img/about-icon-3.webp" alt="">
+                                    </div>
+                                    <div class="body__about-item-content">
+                                        <div class="body__about-item-head">Natural products</div>
+                                        <div class="body__about-item-desc">Committed to only providing tea leaves from strictly controlled quality sources</div>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body__menu-wrap">
+                <div class="grid wide">
+                    <div class="content__header">
+                        <div class="content__header-logo">
+                            <img src="./assets/img/title_base.webp" alt="">
+                        </div>
+                        <div class="content__header-title">TODAY'S MENU</div>
+                    </div>
+                    <ul class=" body__menu-nav">
+                        <li class="body__menu-nav-item ">
+                            <div class="body__menu-nav-link active">Hot tea</div>
+                        </li>
+                        <li class="body__menu-nav-item">
+                            <div class="body__menu-nav-link">Fruit tea</div>
+                        </li>
+                        <li class="body__menu-nav-item">
+                            <div class="body__menu-nav-link">Smoothies</div>
+                        </li>
+                        <li class="body__menu-nav-item">
+                            <div class="body__menu-nav-link">Cake</div>
+                        </li>
+                    </ul>
+                    <ul class="row body__menu-list active">
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/phucbontu.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">RASPBERRY TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    4$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/travai.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">LYCHEE TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    3.5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/tracamdao.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">ORANGE PEACH TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    2$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/tratao.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">APPLE TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    3$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/travietquat.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">BLUEBERRY TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/tradautay.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">STRAWBERRY TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    4$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/traxoai.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">MANGO TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    2$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/trachanh.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">LEMON TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    1.5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="row body__menu-list">
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/tratao.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">APPLE TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    3$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/trachanh.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">LEMON TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    1.5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/phucbontu.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">RASPBERRY TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    4$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/travai.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">LYCHEE TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    3.5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/tracamdao.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">ORANGE PEACH TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    2$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/tradautay.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">STRAWBERRY TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    4$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/traxoai.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">MANGO TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    2$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/travietquat.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">BLUEBERRY TEA</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="row body__menu-list">                      
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/smchuoidua.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">BANANA COCONUT SMOOTHIES</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/smdauvietquat.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">STRAWBERRY BLUEBERRY SMOOTHIES</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    5.5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/smdau.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">STRAWBERRY SMOOTHIES</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    4$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/smdauchuoi.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">STRAWBERRY ANANA SMOOTHIES</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    4.5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <ul class="row body__menu-list">                      
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/banhcaphephomai.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">CREAM CHEESE COFFEE CAKE</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    2.5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/tiramisu.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">TIRAMISU</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    3.5$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/caramen.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">CARAMEL CHEESE CAKE</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    3$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        <li class="col l-3 m-4 c-6 body__menu-list-item">
+                            <a href="" class="body__menu-list-link">
+                                <div class="body__menu-list-link-img-btn">
+                                    <img src="./assets/img/menu/bonglancuon.webp" alt="">
+                                    <button class="body__menu-list-link-btn">Add to cart</button>
+                                </div>
+                                
+                                <p class="body__menu-list-link-desc">MATCHA ROLL CAKE</p>
+                                <p class="body__menu-list-link-price">Price: <span>
+                                    2$
+                                </span></p>
+                                
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="body__time-wrap">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-7 m-12 c-12 body__time-left">
+                            <div class="body__time-left-wrap">
+                                <div class="content__header align-left margin-small" >
+                                    <div class="content__header-logo ">
+                                        <img src="./assets/img/title_base_2.webp" alt="" class="ccc-color">
+                                    </div>
+                                    <div class="content__header-title white-color">OPEN TIME</div>
+                                </div>
+                                <p class="body__time-left-text">"Let's have a coffee" - A very personal appointment of Vietnamese people. A simple invitation for us to sit together and share our own stories. Tea House makes an appointment to meet you in a familiar place.</p>
+                                <ul class="body__time-left-list">
+                                    <li class="body__time-left-item">Monday - Friday: 7am - 9pm</li>
+                                    <li class="body__time-left-item">Saturday - Sunday: 8am - 10pm</li>
+                                </ul>
+                                <button class="body__time-left-btn">Book your table now</button>
+                            </div>
+                        </div>
+                        <div class="col l-5 m-0 c-0 body__time-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body__news-wrap">
+                <div class="grid wide">
+                    <div class="content__header">
+                        <div class="content__header-logo">
+                            <img src="./assets/img/title_base.webp" alt="">
+                        </div>
+                        <div class="content__header-title">FEATURED NEWS</div>
+                    </div>
+                    <ul class="row body__news-list">
+                        <li class="col l-4 m-6 c-12 body__news-item">
+                            <a href="" class="body__news-link">
+                                <div class="body__news-link-img">
+                                    <img src="./assets/img/news/new-1.webp" alt="">
+                                </div>
+                            </a>
+                            <a href="" class="body__news-link">
+                                <p class="body__news-link-title">HOW LONG DO YOU SIP COFFEE BUT DO YOU LOOK CAREFULLY AT THE COFFEE BEANS?</p>
+                            </a>
+                            <p class="body__news-desc">A cup of coffee with a bitter taste, mixed with a little sweetness of condensed milk, is so addictive. Not only attractive in taste, a cup of morning coffee also helps young people have a new day full of energy, ready for...</p>
+                        </li>
+                        <li class="col l-4 m-6 c-12 body__news-item">
+                            <a href="" class="body__news-link">
+                                <div class="body__news-link-img">
+                                    <img src="./assets/img/news/new-2.webp" alt="">
+                                </div>
+                            </a>
+                            <a href="" class="body__news-link">
+                                <p class="body__news-link-title">DRINK 1-4 CUP OF COFFEE EVERY DAY HELPING CANCER PATIENTS LIVE LONGER</p>
+                            </a>
+                            <p class="body__news-desc">Drinking one to four cups of coffee a day may help patients with late-stage colorectal cancer live longer and slow the progression of the disease. This discovery was drawn by scientists from...</p>
+                        </li>
+                        <li class="col l-4 m-6 c-12 body__news-item">
+                            <a href="" class="body__news-link">
+                                <div class="body__news-link-img">
+                                    <img src="./assets/img/news/new-3.webp" alt="">
+                                </div>
+                            </a>
+                            <a href="" class="body__news-link">
+                                <p class="body__news-link-title">USE A PAPER CUP FOR HOT COFFEE, WHAT YOU DRINK FULL OF THESE SCARY THINGS</p>
+                            </a>
+                            <p class="body__news-desc">For many people, a new day can only start well with a cup of hot coffee. Thanks to caffeine, the brain seems unable to receive "fatigue" signals, thereby giving people a source of energy...</p>
+                        </li>
+                        <li class="col l-4 m-6 c-12 body__news-item">
+                            <a href="" class="body__news-link">
+                                <div class="body__news-link-img">
+                                    <img src="./assets/img/news/new-4.webp" alt="">
+                                </div>
+                            </a>
+                            <a href="" class="body__news-link">
+                                <p class="body__news-link-title">DOES DRINKING TEA CAUSE INSOMNIA?</p>
+                            </a>
+                            <p class="body__news-desc">Does drinking tea cause insomnia? This is probably a classic question, especially for those new to drinking tea. There are people who just sip a cup of tea and it can make it difficult for them to sleep all night. But...</p>
+                        </li>
+                        <li class="col l-4 m-6 c-12 body__news-item">
+                            <a href="" class="body__news-link">
+                                <div class="body__news-link-img">
+                                    <img src="./assets/img/news/new-5.webp" alt="">
+                                </div>
+                            </a>
+                            <a href="" class="body__news-link">
+                                <p class="body__news-link-title">COFFEE OR EXERCISE: WHICH CHOICE IS BETTER TO BEAT DRYNESS?</p>
+                            </a>
+                            <p class="body__news-desc">There are two ways to beat sleepiness: early morning and early afternoon, two times of the day when you need to regain your alertness the most. Some people will choose the quick solution b...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="body__banner-wrap">
+                <div class="grid ">
+                    <ul class="row body__banner-list">
+                        <li class="col l-2-4 m-4 c-6 body__banner-item">
+                            <a href=""><img src="./assets/img/banner/picture_1.webp" alt=""></a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-6 body__banner-item">
+                            <a href=""><img src="./assets/img/banner/picture_2.webp" alt=""></a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-6 body__banner-item">
+                            <a href=""><img src="./assets/img/banner/picture_3.webp" alt=""></a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-6 body__banner-item">
+                            <a href=""><img src="./assets/img/banner/picture_4.webp" alt=""></a>
+                        </li>
+                        <li class="col l-2-4 m-4 c-6 body__banner-item">
+                            <a href=""><img src="./assets/img/banner/picture_5.webp" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="grid wide">
+                <ul class="row footer__list">
+                    <li class="col l-4 m-12 c-12 footer__list-item">
+                        <a href="" class="header__category-link footer-logo" style="display:block ;">
+                            <img src="./assets/img/logo.webp" alt="">
+                        </a>
+                        <p class="footer__list-item-desc footer__list-item-desc--margin">We hope Tea House will become a "Tea House", where people come together and find joy and intimate sharing over quality, fragrant cups of coffee.</p>
+                        <div class="footer__list-item-icon">
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-tiktok'></i>
+                            </a>
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                            <a href="" class="footer__list-item-icon-link">
+                                <i class='bx bxl-youtube'></i>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col l-4 m-6 c-12 footer__list-item">
+                        <div class="footer__list-item-header">CONTACT US</div>
+                        <ul class="footer__list-item-text footer__list-item-desc--2">
+                            <li class="footer__list-item-text-icon"><i class='bx bxs-location-plus' ></i></li>
+                            <li class="footer__list-item-desc ">Address: Distict 7, Ho Chi Minh City, Vietnam</li>
+                        </ul>
+                        <ul class="footer__list-item-text">
+                            <li class="footer__list-item-text-icon"><i class='bx bxs-phone' ></i></li>
+                            <li class="footer__list-item-text-desc" >
+                                <p class="footer__list-item-desc">Hotline: +84944426469</p>
+
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="col l-4 m-6 c-12 footer__list-item">
+                        <div class="footer__list-item-header">REGISTER TO RECEIVE PROMOTIONS</div>
+                        <p class="footer__list-item-desc footer__list-item-desc--margin">Don't miss out on attractive products and promotions.</p>
+                        <div class="footer__list-item-sign">
+                            <input type="email" placeholder="Your email" class="footer__list-item-sign-email">
+                            <button class="footer__list-item-sign-login" >Register</button>
+                        </div>
+                    </li>
+                </ul>    
+            </div>
+            <div class="footer__last">
+                <p class="footer__last-text footer__last-text--after">© Copyright belongs to Cafein Team</p>
+                <p class="footer__last-text">Provided by <a href="#">Vu Nguyen Khanh</a></p>
+            </div>
+        </div>
+
+        <div class="go-to-head">
+            <a href="#header" title="Lên đầu trang"><i class='bx bxs-chevron-up-circle'></i></a>
+        </div>
+
+        
+        <div class="overlay-login"></div>
+        <div class="login">
+            <div class="login-img">
+                <img src="./assets/img/banner/picture_3.webp" alt="">
+            </div>
+            <!-- Đăng kí -->
+            <div id="toast"></div>
+            <form action="" id="form-signup">
+                <div class="signup-close">
+                    <i class='bx bxs-x-circle'></i>
+                </div>
+                <div class="signup-head">
+                    <h3>Register</h3>
+                    <div class="signup-head-icon">
+                        <i class='bx bxl-facebook-circle'></i>
+                        <i class='bx bxl-google'></i>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="fullname-signup" class="form-label">Username</label>
+                    <input id="fullname-signup" name="fullname-signup" type="text" placeholder="VD: Vu Nguyen Khanh" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email-signup" class="form-label">Email</label>
+                    <input id="email-signup" name="email-signup" type="email" placeholder="VD:vunguyenkhanh.6599@gmail.com" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password-signup" class="form-label">Password</label>
+                    <input id="password-signup" name="password-signup" type="password" placeholder="Enter password" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password-signup" class="form-label">Enter password again</label>
+                    <input id="confirm-password-signup" name="confirm-password-signup" type="password" placeholder="Enter password again" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <button class="form-submit">Register</button>
+
+                <div class="signup-help">
+                    <span>Do you already have an account?</span>
+                    <span class="signup-help-show-signin">Log In</span>
+                </div>
+            </form>
+            <!-- Đăng nhập -->
+            <form action="" id="form-signin">
+                <div class="signin-close">
+                    <i class='bx bxs-x-circle'></i>
+                </div>
+                <div class="signin-head">
+                    <h3>Đăng Nhập</h3>
+                    <div class="signin-head-icon">
+                        <i class='bx bxl-facebook-circle'></i>
+                        <i class='bx bxl-google'></i>
+                    </div>
+                </div>
+            
+                <div class="form-group">
+                    <label for="fullname-signin" class="form-label">Username</label>
+                    <input id="fullname-signin" name="fullname-signin" type="text" placeholder="VD: Vu Nguyen Khanh" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+            
+                <div class="form-group">
+                    <label for="password-signin" class="form-label">Password</label>
+                    <input id="password-signin" name="password-signin" type="password" placeholder="Enter password" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <button class="form-submit">Log in</button>
+
+                <div class="signin-help">
+                    <span>Do you already have an account?</span>
+                    <span class="signin-help-show-signup">Register</span>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+
+    <script src="./assets/js/product.js"></script>
+    <script src="./assets/js/form.js" type="module"></script>
+    <script src="./assets/js/toast.js"></script>
+</body>
+</html>
